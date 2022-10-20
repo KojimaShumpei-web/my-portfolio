@@ -1,5 +1,4 @@
-h1 {
+.header-logo {
   background-color: rgb(71, 156, 230);
-  height: 50px;
-  width: 200px;
+  height: 100px;
 }
