@@ -2,3 +2,9 @@
   background-color: rgb(71, 156, 230);
   height: 100px;
 }
+.header-logo {
+  font-size: 70px;
+}
+.header-list {
+  justify-items: end;
+}
