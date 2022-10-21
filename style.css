@@ -4,7 +4,9 @@
 }
 .header-logo {
   font-size: 70px;
+  float: left;
 }
 li {
+  list-style: none;
   float: left;
 }
