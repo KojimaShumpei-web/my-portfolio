@@ -5,8 +5,13 @@
 .header-logo {
   font-size: 70px;
   float: left;
+  padding: 40px 20px;
 }
 li {
   list-style: none;
   float: left;
+  padding: 33px 20px;
+}
+.name {
+  font-size: 100px;
 }
