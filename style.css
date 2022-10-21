@@ -5,6 +5,6 @@
 .header-logo {
   font-size: 70px;
 }
-.header-list {
-  justify-items: end;
+li {
+  float: left;
 }
