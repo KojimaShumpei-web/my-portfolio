@@ -4,40 +4,63 @@ li {
 .header {
   background-color: rgb(242, 244, 247);
   height: 100px;
+  padding-right: 20px;
 }
 .header-logo {
   font-size: 50px;
   float: left;
   padding: 15px 20px;
 }
+.header-list ul {
+  display: flex;
+  justify-content: end;
+
+  /*float: right;*/
+}
 .header-list li {
-  padding: 40px 20px;
-  float: right;
+  padding: 40px 10px;
+  font-size: 20px;
 }
 
 .main {
   background-color: rgb(192, 220, 245);
   height: 1000px;
+  margin: 40px;
+  padding: 30px;
 }
 .myphoto {
- /*text-align: left;
+  /*text-align: left;
  position: relative;
   top: 10px;
   right: 600px;*/
 }
+.wrap {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 40px;
 
-.contents-item{
-  float:left;
-  padding:10px;
-  width:350px;
+  /*gap:100px ;*/
+}
+.setumei {
+  margin-left: 100px;
+}
+.setumeilist li {
+  margin: 6.5px;
+}
+.contents {
+  border-bottom: 1px solid rgb(235, 242, 243);
+}
+.contents-item {
+  float: left;
+  padding: 10px;
+  width: 400px;
 }
 span {
   color: blueviolet;
 }
 .name {
-  font-size: 70px;
+  font-size: 50px;
   border-bottom: 1px solid rgb(235, 242, 243);
-  mar
 }
 .footer {
   background-color: aquamarine;
