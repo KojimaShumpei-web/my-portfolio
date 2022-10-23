@@ -17,15 +17,13 @@ li {
 
 .main {
   background-color: rgb(192, 220, 245);
-  height: 2000px;
+  height: 1000px;
 }
-.img1 {
-  
-  width: 400px;
-  height: 400px;
-  position: relative;
+.myphoto {
+ /*text-align: left;
+ position: relative;
   top: 10px;
-  right: 600px;
+  right: 600px;*/
 }
 
 .contents-item{
@@ -43,7 +41,7 @@ span {
 }
 .footer {
   background-color: aquamarine;
-  height: 150px;
+  height: 200px;
 }
 .footer-logo {
   font-size: 50px;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      id="gazo"
+      onclick="changeIMG()"
+      src="ピチュウ.png"
+      width="400"
+      height="400"
+      alt=""
+    />
+    <script>
+      var img = new Array();
+      img[0] = new Image();
+      img[0].src = "ピチュウ.png";
+      img[1] = new Image();
+      img[1].src = "ピカチュウ.png";
+      img[2] = new Image();
+      img[2].src = "ライチュウ.png";
+
+      var cnt = 0;
+
+      function changeIMG() {
+        if (cnt == 2) {
+          cnt = 0;
+        } else {
+          cnt++;
+        }
+        document.getElementById("gazo").src = img[cnt].src;
+      }
+    </script>
+  </body>
+</html>
