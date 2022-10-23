@@ -44,3 +44,48 @@ function henkou() {
   }
   document.getElementById("img2").src = img2[nu].src;
 }
+
+var img3 = new Array("モンスターボール.png", "デデンネ.png");
+img3[0] = new Image();
+img3[0].src = "モンスターボール.png";
+img3[1] = new Image();
+img3[1].src = "デデンネ.png";
+
+var nn = 0;
+function henkou3() {
+  if (nn == 1) {
+    nn = 0;
+  } else {
+    nn++;
+  }
+  document.getElementById("img3").src = img3[nn].src;
+}
+
+var img4 = new Array(
+  "ゴース.png",
+  "ゴースト.png",
+  "ゲンガー.png",
+  "メガゲンガー.png",
+  "ゲンガーキョダイマックス.png"
+);
+img4[0] = new Image();
+img4[0].src = "ゴース.png";
+img4[1] = new Image();
+img4[1].src = "ゴースト.png";
+img4[2] = new Image();
+img4[2].src = "ゲンガー.png";
+img4[3] = new Image();
+img4[3].src = "メガゲンガー.png";
+img4[4] = new Image();
+img4[4].src = "ゲンガーキョダイマックス.png";
+
+var n = 0;
+
+function henkou2() {
+  if (n == 4) {
+    n = 0;
+  } else {
+    n++;
+  }
+  document.getElementById("img4").src = img4[n].src;
+}
